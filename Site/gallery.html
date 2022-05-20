@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <title>Harry Gallery | Collection</title>
+</head>
+<body>
+<header>
+
+    <nav role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo">
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li class="MenuItems"><a href="index.html">Hoofdmenu</a></li>
+                <li class="MenuItems"><a href="index.html#about">Over mezelf</a></li>
+                <li class="MenuItems"><a href="index.html#contact">Contact</a></li>
+                <li class="MenuItems"><a href="gallery.html">Galerij</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+                <li class="MenuItems"><a href="index.html">Hoofdmenu</a></li>
+                <li class="MenuItems"><a href="index.html#about">Over mezelf</a></li>
+                <li class="MenuItems"><a href="index.html#contact">Contact</a></li>
+                <li class="MenuItems"><a href="gallery.html">Galerij</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger  light-blue-text text-accent-4"><i
+                    class="material-icons">menu</i></a>
+        </div>
+    </nav>
+</header>
+<main>
+
+
+    <div class="center container">
+        <div class="row">
+            <h1 class="center" id="about">GALLERY</h1>
+            <br>
+            <div class="divider"></div>
+
+            <div class="section">
+                <a class="dropdown-trigger btn" data-target="dropdown1">Filter</a>
+                <ul id='dropdown1' class='dropdown-content'>
+                    <li>
+                        <button onclick="showEvery()" id="everySelect">Alles</button>
+                    </li>
+                    <li>
+                        <button onclick="showCartoon()" id="cartoonSelect">Cartoons</button>
+                    </li>
+                    <li>
+                        <button onclick="showOilpaint()" id="oilpaintSelect">Olieverf</button>
+                    </li>
+                    <li>
+                        <button onclick="showComic()" id="comicSelect">Strips</button>
+                    </li>
+                    <li>
+                        <button onclick="showPopart()" id="popartSelect">Popart</button>
+                    </li>
+                    <li>
+                        <button onclick="showPencil()" id="pencilSelect">Pencil</button>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="section" id="cartoon">
+                <h5 id="cartoonTitle">Cartoons</h5>
+                <div class="gallery">
+                    <div class="column">
+                        <a target="_blank" href="Images/cartoon/cartoon1.png">
+                            <img src="Images/cartoon/cartoon1.png" alt="Cartoon1">
+                        </a>
+                        <div class="desc">"Politieke" karikatuur en kartoen in België <br> 1ste prijs 1985</div>
+                    </div>
+                </div>
+
+                <div class="gallery">
+                    <div class="column">
+                        <a target="_blank" href="Images/cartoon/cartoon2.png">
+                            <img src="Images/cartoon/cartoon2.png" alt="Cartoon2">
+                        </a>
+                        <div class="desc">Vuur</div>
+                    </div>
+                </div>
+
+                <div class="gallery">
+                    <div class="column">
+                        <a target="_blank" href="Images/cartoon/cartoon3.png">
+                            <img src="Images/cartoon/cartoon3.png" alt="Cartoon3">
+                        </a>
+                        <div class="desc">Eten en Drinken</div>
+                    </div>
+                </div>
+
+                <div class="gallery">
+                    <div class="column">
+                        <a target="_blank" href="Images/cartoon/cartoon4.png">
+                            <img src="Images/cartoon/cartoon4.png" alt="Cartoon4">
+                        </a>
+                        <div class="desc">Kauwgum</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="section" id="oilpaint">
+                <h5 id="oilpaintTitle">Olieverf</h5>
+                <div class="gallery">
+                    <div class="column">
+                        <a target="_blank" href="Images/olieverf/Appel&Ei.jpg">
+                            <img src="Images/olieverf/Appel&Ei.jpg" alt="Appel&Ei">
+                        </a>
+                        <div class="desc">Voor een appel en een ei</div>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <div class="column">
+                        <a target="_blank" href="Images/olieverf/Paard2.jpg">
+                            <img src="Images/olieverf/Paard2.jpg" alt="Paard">
+                        </a>
+                        <div class="desc">Paard</div>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <div class="column">
+                        <a target="_blank" href="Images/olieverf/Vrouw-met-bril2.jpg">
+                            <img src="Images/olieverf/Vrouw-met-bril2.jpg" alt="Vrouw met bril">
+                        </a>
+                        <div class="desc">Vrouw met bril</div>
+                    </div>
+                </div>
+
+                <div class="gallery">
+                    <div class="column">
+                        <a target="_blank" href="Images/olieverf/PAT.jpg">
+                            <img src="Images/olieverf/PAT.jpg" alt="Neefje Patrick">
+                        </a>
+                        <div class="desc">Neefje Patrick</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="section" id="comic">
+                <h5 id="comicTitle">Strips</h5>
+                <div class="gallery">
+                    <div class="column">
+                        <a target="_blank" href="Images/strips/Strip1.png">
+                            <img src="Images/strips/Strip1.png" alt="Strip1">
+                        </a>
+                        <div class="desc">De Avond-Uren van hoofdman Jan <br> Personeel tekort</div>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <div class="column">
+                        <a target="_blank" href="Images/strips/Strip2.png">
+                            <img src="Images/strips/Strip2.png" alt="Strip2">
+                        </a>
+                        <div class="desc">De Avond-Uren van hoofdman Jan <br> Vier Russen</div>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <div class="column">
+                        <a target="_blank" href="Images/strips/Strip3.png">
+                            <img src="Images/strips/Strip3.png" alt="Strip3">
+                        </a>
+                        <div class="desc">De Avond-Uren van hoofdman Jan <br> Reklame</div>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <div class="column">
+                        <a target="_blank" href="Images/strips/Strip4.png">
+                            <img src="Images/strips/Strip4.png" alt="Strip4">
+                        </a>
+                        <div class="desc">De Avond-Uren van hoofdman Jan <br> Goed en slecht nieuws</div>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="popart">
+                <h5 id="popartTitle">Popart</h5>
+                <div class="gallery">
+                    <div class="column">
+                        <a target="_blank" href="Images/popart/popart4.jpg">
+                            <img src="Images/popart/popart4.jpg" alt="popart4">
+                        </a>
+                        <div class="desc">Tafel Popart</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="section" id="pencil">
+            <h5 id="pencilTitle">Pencil</h5>
+            <div class="gallery">
+                <div class="column">
+                    <a target="_blank" href="Images/pencil/micky.jpg">
+                        <img src="Images/pencil/micky.jpg" alt="Micky">
+                    </a>
+                    <div class="desc">Micky</div>
+                </div>
+            </div>
+
+
+    </div>
+</main>
+<br>
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="js/init.js"></script>
+<script src="js/imagemenu.js"></script>
+<script src="js/showImages.js"></script>
+<div class="sidenav-overlay" style="display: none; opacity: 0;"></div>
+</body>
+</html>
